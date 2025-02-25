@@ -1,0 +1,15 @@
+**Planning File**
+
+Main ideas: 
+- Takes in recipe measurements and converts them to a certain proportion
+- Stores recipes in a database
+- You can provide a list of ingredients you have and it searchs database for recipes you can make
+- Will also convert ingredients like cups to grams
+
+
+**Tech stack**
+Languages:
+
+UI Framework:
+
+Database:
