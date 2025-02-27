@@ -6,10 +6,57 @@ Main ideas:
 - You can provide a list of ingredients you have and it searchs database for recipes you can make
 - Will also convert ingredients like cups to grams
 
+**Recipe Converter Application - Phase 1: Planning & Setup**
 
-**Tech stack**
-Languages:
+**1. Project Overview**
 
-UI Framework:
+Project Name: Recipe Wizard
 
-Database:
+Description: A desktop application that allows users to convert ingredient measurements, adjust recipe servings, and support multiple unit systems. 
+              As well as save and store recipes that are commonly used. It also allows for a user to enter the ingredients they have and provides a recipe
+              that would be possible to make with those. 
+
+Target Users: Bakers/Cooks
+
+Key Features:
+
+  - Convert ingredient measurements (e.g., cups to grams, Fahrenheit to Celsius)
+
+  - Adjust recipe servings
+
+  - Support multiple unit systems (metric & imperial)
+
+  - Store recipes in a database
+
+  - Search database for potential recipes to make when provided ingredients
+
+  - Export Recipes
+
+**2. Feature Breakdown & Choices**
+
+Core Features
+
+Unit conversion: [Cups <-> Grams, Ounces <-> Milliliters, Fahrenheit <-> Celsius]
+
+Recipe scaling: [Double/halve recipes, custom portion adjustments]
+
+User input handling: [Dropdowns, text boxes, predefined ingredient lists]
+
+Search database: 
+
+Save/load recipes: [JSON, SQLite database, CSV]
+
+Export recipes: [PDF, TXT, Markdown]
+
+UI enhancements: [Dark mode, theme customization, drag-and-drop functionality]
+
+**3. Tech Stack Selection**
+
+Programming Language: Python
+
+UI Framework: Tkinter (Python): Lightweight, built-in GUI library || PyQt (Python): Advanced, more polished UI || Electron (JavaScript): Cross-platform, modern desktop UI
+
+Data Storage: JSON: Simple, lightweight, easy to implement || CSV: Human-readable format, easy to edit manually
+
+**4. Notes & Next Steps**
+
