@@ -1,4 +1,4 @@
-#Recipe Wizard#
+##Recipe Wizard
 
 Description: Recipe Wizard is a desktop application designed to help bakers and cooks easily convert ingredient measurements, adjust recipe servings, and store frequently used recipes. Additionally, users can input available ingredients to find recipes they can make, making meal planning more efficient.
 
