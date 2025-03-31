@@ -12,9 +12,9 @@ Features:
   - UI enhancements such as dark mode and theme customization
 
 Tech Stack: 
-  - Programming Language: Python
-  - UI Framework: Tkinter (Lightweight) or PyQt (Advanced UI)
-  - Data Storage: JSON (Lightweight), CSV (Editable format)
+  - Programming Language: C++
+  - UI Framework: Winforms
+  - Data Storage: IDK
 
 Installation: 
 
